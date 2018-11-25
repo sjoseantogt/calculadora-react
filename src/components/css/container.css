@@ -1,0 +1,84 @@
+.container {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-rows: repeat(6, 80px);
+    grid-template-columns: repeat(4, 80px);
+
+    margin-left: 40%;
+}
+
+.C {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    max-height: 100%;
+    max-width: 100%;
+
+    background-color: #bfc0c0;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+}
+
+.display p{
+    color: #2d3142;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 55px;
+    text-align: right;
+    margin-right: 2%;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    color:#FFFFFF;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+}
+
+.oper button{
+    background-color: #EF8354;
+}
+
+.C button {
+    background-color: #EF8354;
+}
+
+.zero button {
+    background-color: #4F5D75;
+}
+
+.num button{
+    background-color: #4F5D75;
+}
+
+button:hover{
+    background-color: #007EA7;
+}
+
+h1 {
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
